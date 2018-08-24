@@ -25,7 +25,7 @@ define("plugins/adfasaPlugin/__static__",[], function(require, exports, module) 
                 {
                     "type": "snippets",
                     "filename": "html.snippets",
-                    "data": "# scope: html\nsnippet fre\n\t<?php foreach($${1:result} as $${2:${3:key}=>$${4:row}}): ?>\n\t\t${5:#source}\n\t<?php endforeach; ?>\nsnippet php\n\t<?php ${1:code} ?>\nsnippet eco\n\t<?php echo ${1} ?>\nsnippet iff\n\t<?php if(${1:condition}): ?>\n\t\t${2:#source}\n\t<?php endif; ?>\nsnippet ife\n\t<?php if(${1:condition}): ?>\n\t\t${2:#source}\n\t<?php else: ?>\n\t\t${3:#source}\n\t<?php endif; ?>"
+                    "data": "# scope: html\nsnippet fre\n\t<?php foreach($${1:result} as $${2:${3:key}=>$${4:row}}): ?>\n\t\t${5:#source}\n\t<?php endforeach; ?>\nsnippet php\n\t<?php ${1:code} ?>\nsnippet eco\n\t<?php echo ${1} ?>snippet iff\n\t<?php if(${1:condition}): ?>\n\t\t${2:#source}\n\t<?php endif; ?>\nsnippet ife\n\t<?php if(${1:condition}): ?>\n\t\t${2:#source}\n\t<?php else: ?>\n\t\t${3:#source}\n\t<?php endif; ?>"
                 },
                 {
                     "type": "snippets",
